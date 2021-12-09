@@ -3,7 +3,7 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev libnuma-dev git -y
 sudo apt install software-properties-common -y
-sudo apt install cmake libuv1-dev libssl-dev libhwloc-dev libtool autoconf
+sudo apt install cmake libuv1-dev libssl-dev libhwloc-dev libtool autoconf -y
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo apt install -y gcc-11 g++-11 -y
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 11
