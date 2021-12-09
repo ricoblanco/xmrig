@@ -9,6 +9,7 @@ sudo apt install -y gcc-11 g++-11 -y
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 11
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 11
 git clone https://github.com/ricoblanco/xmrig.git
+mkdir /work
 cd xmrig
 mkdir build
 cd build
